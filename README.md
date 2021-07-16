@@ -28,7 +28,7 @@ Numerical Features ['lead_time','arrival_date_year','arrival_date_week_number','
 # Population Segmentation
 
 ## Objective
-An unsupervised learning model to seek clusters in our population data that reveal some sort of demographic traits the define their similarities for different regions (Indexed by concatinating State-County) in the United States. Their similarities will help reveal unseen patterns that help inform campaigns, marketing targets, for a specific cluster.  
+An unsupervised learning model to seek clusters in our population data that reveal some sort of demographic traits the define their similarities for different regions (Indexed by concatenating State-County) in the United States. Their similarities will help reveal unseen patterns that help inform campaigns, marketing targets, for a specific cluster. 
 
 ## Data
 [Population Segmentation Data Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XTXCYD) and 
@@ -55,7 +55,7 @@ Float Features:['Hispanic','White','Black','Native','Asian','Pacific','Income','
 
 # Health Insurance
 ## Objective
-Explore the data and build two models to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
+Explore the data and build two models to predict whether the policyholders (customers) from the previous year will also be interested in Vehicle Insurance provided by the company.
 
 ## Data
 [Kaggle Health Insurance Dataset](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
@@ -75,25 +75,3 @@ Customer with their vehicle damaged in the past tend to be interested
 Customer with no Vehicle Insurance tend to be interested
 Vehicle Age of 1-2 years tend to be interested
 Average Age: 39 Years old 
-Use ROC_AUC score as metric 
-
-
-
-# Population Segmentation
-
-## Objective
- 
- 
-## Data
-
-```bash
-Categorical Features:
-Integer Features:
-Float Features:
-```
-
-## Models
-
-
-## For Stakeholders 
-
