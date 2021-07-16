@@ -51,3 +51,49 @@ Float Features:['Hispanic','White','Black','Native','Asian','Pacific','Income','
 - Top Five Highest Unemployment Rate: Puerto Rico (Adjuntas, Lares, Jayuya, Orocovis, Cataño) also the poorest area
 - Top Three Total Population: California-Los Angeles, Illinois-Cook, Texas-Harris
 - Top Three employed percentage based on total population: Alaska-Aleutians East Borough, Hawaii-Kalawao, Alaska-Skagway Municipality
+
+
+# Health Insurance
+## Objective
+Explore the data and build two models to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
+
+## Data
+[Kaggle Health Insurance Dataset](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
+```bash
+Binary Targets:['Response']  (Customer is interested:1,Customer is not interested:0)
+Categorical Features: ['Gender','Vehicle_Age','Vehicle_Damage']
+Numerical Features ['Age','Driving_License','Previously_Insured','Vintage','Annual_Premium','Policy_Sales_Channel']
+```
+
+## Models
+- XGBoost Classifier:
+- Cat Boost Classifier:
+
+## For Stakeholders 
+Percentage of Customers that are Interested: 10.12%
+Customer with their vehicle damaged in the past tend to be interested
+Customer with no Vehicle Insurance tend to be interested
+Vehicle Age of 1-2 years tend to be interested
+Average Age: 39 Years old 
+Use ROC_AUC score as metric 
+
+
+
+# Population Segmentation
+
+## Objective
+ 
+ 
+## Data
+
+```bash
+Categorical Features:
+Integer Features:
+Float Features:
+```
+
+## Models
+
+
+## For Stakeholders 
+
