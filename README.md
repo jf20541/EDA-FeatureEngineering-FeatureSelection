@@ -10,7 +10,6 @@ Supervised Learning Binary Classification problem [0,1] by predicting [Hotel Boo
   Numerical Features ['lead_time','arrival_date_year','arrival_date_week_number','arrival_date_day_of_month','is_repeated_guest','previous_cancellations','previous_bookings_not_canceled','booking_changes','agent','days_in_waiting_list','adr','required_car_parking_spaces','total_of_special_requests']
   ```
   - Principal Component Analysis: Reduce the dimensionality of the data 
-  - Logistic Regression:
   - Artificial Neural Network:
 </details>
 
